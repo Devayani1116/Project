@@ -1,0 +1,11 @@
+#Task-1 , program to find the area of a circle
+rad=float(input("Input the radius of the circle : "))
+import math
+area=math.pi*rad*rad
+print("The area of the circle with radius {} is:".format(rad))
+print(area)
+
+#Task-2 , program to print the extension of a file
+fname=input("Input the filename: ")
+fextn=fname.split(".")
+print("The extension of the file is: " + repr(fextn[-1]))
